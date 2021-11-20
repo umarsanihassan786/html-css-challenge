@@ -1,0 +1,137 @@
+/*body{
+    width: 1440px;
+    background-color: hsl(180, 24%, 91%);
+}
+
+main{
+    margin: 25% 25% 25% 25%;
+}
+.upper{
+    background-color: white;
+}
+
+.lower{
+   
+    display: flex;
+}
+
+.left{
+    background-color: hsl(205, 14%, 57%);
+}
+
+.right{
+    background-color: hsl(218, 22%, 67%);
+}
+
+.yellow-text{
+    color: hsl(71, 73%, 54%);
+}
+
+.white-text{
+    color: white;
+}
+
+.grey-text{
+    color: grey;
+}
+
+.button{
+    font-size: 16px;
+    background-color: hsl(71, 73%, 54%);
+    margin: 5% 25% 5% 25%;
+    padding: 2% 25% 2% 25%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+p{
+    font-size: 16px;
+}*/
+*{
+   box-sizing: border-box;
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+.upper-para{
+    line-height: 40px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+}
+section{
+    padding: 35px;
+}
+
+.right{
+    background-color: hsl(218, 22%, 67%);
+    color: white;
+}
+
+.left{
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+
+.lower{
+    display: flex;
+}
+
+.lower > section{
+    flex: 1 ;
+}
+h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 40px;
+}
+
+.yellow-text{
+    color: hsl(71, 73%, 54%);
+}
+
+p{
+    font-size: 18px;
+}
+
+button{
+     background-color: hsl(71, 73%, 54%);
+     font-size: 18px;
+     color: white;
+     border-radius: 10px;
+     font-weight: 700;
+     padding: 15px 0;
+     width: 100%;
+     margin-top: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    line-height: 24px;
+}
+
+p span{
+    font-size: 40px;
+    color: white;
+}
+
+.john{
+    color: hsl(179, 42%, 80%);
+}
